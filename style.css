@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 420px;
+    margin-top: 20% auto 0;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container input{
+    width: 420px;
+    height: 56px;
+    margin-top: 16px;
+    background: #171414;
+    border: 1px solid #2D2727;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+
+.container ::-webkit-input-placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.container ::-webkit-input-placeholder :hover{
+    color: #171414;
+}
+
+
+
+.button {
+    width: 420px;
+    border-radius: 8px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    margin-top: 40px;
+}
+
+
+button:hover {
+    background-color: #1F2EB5;
+
+}
